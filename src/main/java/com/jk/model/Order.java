@@ -1,5 +1,6 @@
 package com.jk.model;
 
+
 public class Order {
 
     private Integer Id;
@@ -7,6 +8,16 @@ public class Order {
     private String name;
 
     private String  time;
+
+    private Double price;
+
+    public Double getPrice() {
+        return price;
+    }
+
+    public void setPrice(Double price) {
+        this.price = price;
+    }
 
     public Integer getId() {
         return Id;
